@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES2022",                          // Modern JavaScript features
+      "module": "Node16",                          // Node.js ESM module system
+      "moduleResolution": "Node16",                // How to resolve imports
+      "outDir": "./build",                         // Output compiled JS here
+      "rootDir": "./src",                          // Source files location
+      "strict": true,                              // Enable all strict type checking
+      "esModuleInterop": true,                     // Better CommonJS/ESM interop
+      "skipLibCheck": true,                        // Skip type checking of .d.ts files
+      "forceConsistentCasingInFileNames": true,   // Enforce consistent file naming
+      "resolveJsonModule": true,                   // Allow importing JSON files
+      "declaration": true,                         // Generate .d.ts files
+      "declarationMap": true,                      // Generate sourcemaps for declarations
+      "sourceMap": true                            // Generate sourcemaps for debugging
+    },
+    "include": ["src/**/*"],                       // Include all files in src/
+    "exclude": ["node_modules", "build"]           // Exclude these directories
+  }

@@ -1,0 +1,28 @@
+# Source files
+src/
+tsconfig.json
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Tests
+*.test.ts
+*.spec.ts
+
+# Development files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.cache/
+
